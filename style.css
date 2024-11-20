@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 99%;
+  display: flex; 
+}
+.head .txt2{
+    gap: 5px;
+}
+.txt1{
+   width: 33%; 
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: 25px;
+}
+.txt2{
+    width: 33%;
+   align-items: center;
+   display: flex;
+   justify-content: right; 
+}
+.txt6{
+    position: absolute;
+    margin-top: -250px;
+    width: 40%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin-left: 500px;
+    padding: 10px;
+}
+.txt2 .fa-solid{
+    font-size: 30px;
+}
+.txt3{
+    width: 33%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+margin-right: 37px;
+}
+.box3 .icon{
+    margin-left: 980px;
+    position: absolute;
+    margin-top: -10px;
+    color: gray;
+}
+#navbar{
+    background-color: blue;
+    width: 100%;
+    display: flex;
+}
+ul{
+    width: 60%;
+    display: flex;
+align-items: center;
+color: antiquewhite;
+justify-content: center;
+}
+ul li{
+    list-style: none;
+margin: 10px 20px;
+}
+.box1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.box1 button{
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: yellow;
+    border: none;
+}
+.txt{
+position: absolute;
+margin: -100px;
+margin-left: 150px;
+display: flex;
+padding: 5px 20px;
+background-color: black;
+color: white;
+}
+.box2{
+    width: 75%;
+    display: flex;
+    position: absolute;
+    margin: -75px;
+    margin-left: 150px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    background-color: white;
+    gap: 90px;  
+}
+.box2 .txt5{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.box2 .txt4{
+    display: flex;
+    align-items: center;
+gap: 5px;
+margin-left: 20px;
+}
+.box2 .txt4 button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 3px 5px 3px 5px;
+}
+.box3{
+    width: 80%;
+margin-left: 140px;
+padding: 20px;    
+}
+.box3 h4{
+position: absolute;
+margin: -10px;
+}
+.box3 hr{
+position: relative;
+margin-left: 100px;
+margin-right: 65px;
+}
+.popular{
+   width: 100%;
+   display: flex;
+justify-content: center;
+   gap: 30px;
+   overflow: hidden;
+}
+.box4{
+height: 200px;
+background-color: antiquewhite;
+}
+.popular .box4 .box7{
+    gap: 60px;
+}
+.box5{
+    height: 200px;
+    background-color: antiquewhite;
+}
+.popular .box5 .box8{
+    gap: 110px;
+}
+.box6{
+    height: 200px;
+    background-color: antiquewhite;
+}
+.popular .box6 .box9{
+    gap: 100px;
+}
+.box7{
+display: flex;
+width: 100%;
+}
+.box7 button{
+    width: 20%;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+   align-items: center;
+}
+.box8{
+    display: flex;
+    width: 100%;
+}
+.box8 button{
+    width: 20%;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+   align-items: center;
+}
+.box9{
+    display: flex;
+    width: 100%;
+}
+.box9 button{
+    width: 20%;
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+   align-items: center;
+}
+.hot{
+    width: 80%;
+margin-left: 140px;
+margin-top: 30px;
+padding: 20px; 
+}
+.hot h4{
+position: absolute;
+margin: -10px;
+}
+.hot hr{
+position: relative;
+margin-left: 60px;
+margin-right: 65px;
+}
+.hot-deals{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.hot-deals .box10 img{
+    border-radius: 5px;
+}
+.hot-deals .box11 img{
+    border-radius: 5px;   
+}
+.blogs{
+  width: 80%;
+   margin-left: 160px;
+   margin-top: 20px;
+   margin-bottom: 20px
+}
+.blogs button{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 660px;   
+}
+.blogs .icon1{
+    margin-left: 120px;
+    position: absolute;
+    margin-top: -50px;
+    font-size: 40px;
+    color: grey;
+}
+.about{
+    display: flex;
+    width: 80%;
+   justify-content: center; 
+    gap: 100px;
+   margin-left: 130px;
+}
+.footer{
+     margin-left: 130px;
+   padding: 30px;
+}
+.box15 button{
+background-color: blue;
+border: none;
+color: white;
+padding: 3px 10px 3px 10px;
+}
